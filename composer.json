@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/spatie-ignition",
+    "description": "Tyhp type definitions for spatie/ignition 1.16.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.16.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/spatie-ignition-impl": "~1.16.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/spatie-ignition-impl"
+        }
+    }
+}
